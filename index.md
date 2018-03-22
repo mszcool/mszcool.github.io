@@ -7,11 +7,3 @@ Cheers
 **Mario**
 
 [Name of Link]({{ site.baseurl }}{% post_url 2010-07-21-name-of-post %})
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
