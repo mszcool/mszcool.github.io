@@ -8,9 +8,3 @@ Welcome to my GitHub-pages. I decided to move my writing activities fully to Git
 Cheers
 
 **Mario**
-
-{% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
-{% endfor %}
