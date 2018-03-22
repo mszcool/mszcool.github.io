@@ -5,3 +5,5 @@ Welcome to my GitHub-pages. I decided to move my writing activities fully to Git
 Cheers
 
 **Mario**
+
+[Name of Link]({{ site.baseurl }}{% post_url 2018-03-22-test %})
