@@ -6,4 +6,8 @@ Cheers
 
 **Mario**
 
-[Name of Link]({{ site.baseurl }}{% post_url 2018-03-22-test %})
+[Name of Link]({{ site.baseurl }}{% post_url 2010-07-21-name-of-post %})
+
+{% for post in site.posts %}
+* [Post Title]({{ site.baseurl }}{% post.url post.title %})
+{% endfor %}
