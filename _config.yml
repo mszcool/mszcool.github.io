@@ -1,1 +1,10 @@
+title: 'mszcools Thoughts and cents revealed'
+tagline: 'real illiteracy is the inability to go beyond, change and be creative...'
+description: 'My technical blog with personal thoughts, experiences and learnings around Cloud and Software Development.'
+url: 'http://blog.mszcool.com'
 theme: jekyll-theme-slate
+version: 1.0
+paginate: 5
+gems:
+  - jekyll-gist
+  - jekyll-paginate
