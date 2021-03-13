@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   new technologies and building new stuff for the cloud and the edge.
   .NET (C#), Python, Go, Azure Compute, Azure AD, Identity, Kubernetes,
   Azure Governance and Infra Automation at scale, DevOps, Hybrid
-baseurl: "/mszcool.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.mszcool.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mszcool
 github_username:  mszcool
