@@ -30,6 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.mszcool.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mszcool
 github_username:  mszcool
+linkedin_username: marioszp
 
 # Build settings
 theme: minima
