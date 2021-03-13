@@ -1,0 +1,1 @@
+# mszcool.github.io
