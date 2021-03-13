@@ -10,6 +10,8 @@ I am working at **Microsoft** as engineering manager who enjoys working with a
 talented team hands-on. We're part of **Azure Global Commercial Industries**,
 a unit at Microsoft that's building **Industry PaaS platforms**.
 
+## How it started...
+
 Back in 1999 after completing a **Higher Technical Education** for **informatics**
 and **economics** in Austria with the final examl focused on **Oracle** and **Java**.
 After that, I started working as a self-employed developer next to civil service.
