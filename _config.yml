@@ -31,6 +31,7 @@ url: "http://blog.mszcool.com" # the base hostname & protocol for your site, e.g
 twitter_username: mszcool
 github_username:  mszcool
 linkedin_username: marioszp
+author: Mario Szpuszta
 
 # Build settings
 theme: minima
