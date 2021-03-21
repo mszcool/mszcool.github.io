@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Azure – Console Apps in Platform-as-a-Service Worker Roles the right way!"
-date:   2013-08-26 00:00:00 +0100
+date:   2013-08-26 01:00:00 +0100
 categories: wordpressarchive
 ---
 

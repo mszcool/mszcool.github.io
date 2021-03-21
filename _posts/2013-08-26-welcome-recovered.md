@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "mszcools’ thoughts revealed - v2 - welcome..."
-date:   2013-08-26 00:00:00 +0100
+date:   2013-08-26 01:00:00 +0100
 categories: wordpressarchive
 ---
 

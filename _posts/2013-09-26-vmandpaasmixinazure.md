@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Windows Azure – Combining PaaS & IaaS to get best of both worlds in your Architecture"
-date:   2013-08-26 12:00:00 +0100
+date:   2013-09-26 12:00:00 +0100
 categories: wordpressarchive
 ---
 
