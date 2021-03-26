@@ -3,11 +3,14 @@ layout: post
 title:  "mszcools’ thoughts revealed - v2 - welcome..."
 date:   2013-08-26 01:00:00 +0100
 categories: wordpressarchive
+excerpt_separator: <!--more-->
 ---
 
 ***[restored from my Wordpress blog]***
 
 It is about a year ago since I’ve published my last blog post on my [old blog](http://blogs.msdn.com/mszcool/), but finally I decided to re-launch my blog based on [Windows Azure Web Sites](http://www.windowsazure.com/en-us/documentation/services/web-sites/) during summer.
+
+<!--more-->
 
 My motivation for this re-launch was primarily given by a move into a new team inside of Microsoft’s Technical Evangelism & Development (TED) organization which is led by one of Microsoft’s Technical Fellows, John Shewchuk.
 

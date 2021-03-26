@@ -3,6 +3,7 @@ layout: post
 title:  "Windows Azure – Console Apps in Platform-as-a-Service Worker Roles the right way!"
 date:   2013-08-26 01:00:00 +0100
 categories: wordpressarchive
+excerpt_separator: <!--more-->
 ---
 
 ***[restored from my Wordpress blog]***
@@ -10,6 +11,8 @@ categories: wordpressarchive
 I am currently working with a software vendor in the media space who has some really valuable software assets implemented as console applications, today. These command line applications are used for some high-performance image transcoding/encoding jobs and are implemented with C/C++ (originally built for Unix/Linux environments).
 
 Now the partner wants to run this application as part of a [Platform-as-a-Service (PaaS)](http://en.wikipedia.org/wiki/Hybrid_cloud#Platform_as_a_service_.28PaaS.29) deployment on [Windows Azure using Web/Worker Roles](http://www.windowsazure.com/en-us/documentation/services/cloud-services/) for a new online service they’re currently building. But a requirement is to enable that scenario without rewriting the application and re-using it as it is.
+
+<!--more-->
 
 In this blog post I’ll show, how you can run console applications correctly in Windows Azure Worker Roles without a single modification of the original console application itself. This is a scenario I’ve been challenged with in some other engagements with my partners and the requirements and solutions where always similar.
 

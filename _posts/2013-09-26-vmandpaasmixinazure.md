@@ -2,10 +2,15 @@
 layout: post
 title:  "Windows Azure – Combining PaaS & IaaS to get best of both worlds in your Architecture"
 date:   2013-09-26 12:00:00 +0100
-categories: wordpressarchive
+categories: wordpressarchive#
+excerpt_separator: <!--more-->
 ---
 
 ***[restored from my Wordpress blog]***
+
+While software vendors are looking to spend less time on infrastructure management by leveraging Platform Services (PaaS), this is not always possible. In this post, I'll talk about combining fully managed platform services with infrastructure services (IaaS) for which customers are having more responsibilities of managing them for an increased level of flexibility.
+
+<!--more-->
 
 Over the past 2 years I have been working with many ISVs (Independent Software Vendors) to get their products and platforms to the Public Cloud on Windows Azure. In almost all cases the requirements and motivations from those ISVs did include one or a combination of the following reasons and/or expectations:
 
