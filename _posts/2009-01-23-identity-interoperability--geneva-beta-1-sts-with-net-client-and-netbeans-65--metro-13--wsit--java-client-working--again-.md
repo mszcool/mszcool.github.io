@@ -48,7 +48,7 @@ In October I published [a posting on Identity Interoperability](http://blogs.msd
 
  As for the .NET-side the installation-process is pretty straight-forward (install Visual Studio and it's SP1 which includes .NET and then install Geneva Framework and you're done;)) I just outline, what you have to do on the Java-side to make things working...
 
- 1. Install Netbeans and install all Netbeans updates. Very important: install Glassfish v2 with Netbeans as well.
+1. Install Netbeans and install all Netbeans updates. Very important: install Glassfish v2 with Netbeans as well.
 2. Install the Java Cryptopraphy Extensions policy files. for this purpose extract the JCE download and copy it to the files to the following directories:  
 C:\Program Files\Java\jre1.5.0\_15\lib\security  
 and C:\Program Files\Java\jdk1.5.0\_15\jre\lib\security  
@@ -59,7 +59,7 @@ and C:\Program Files\Java\jdk1.5.0\_15\jre\lib\security
 As you can see, the interoperability option is disabled because Metro is not installed on my Glassfish instance. Therefore we need to install Metro. Unfortunately the documentation on how-to "install" Metro is pretty confusing. It tells to execute an ant-script that installs metro as you can see in the following screen-shot:  
 [![Administrator Java Command Prompt](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/Administrator%2520Java%2520Command%2520Prompt_thumb.png?raw=true?raw=true)](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/Administrator%2520Java%2520Command%2520Prompt_2.png?raw=true?raw=true)  
 That means in a command prompt where I have all the Java environment variables set I execute the following statement:  
-<antdir>\ant <workdir>\metro\metro-on-glassfish.xml install  
+antdir\ant workdir\metro\metro-on-glassfish.xml install  
 After you've executed this command **while neither Netbeans nor Glassfish is running** and you restart Netbeans, the .NET compatibility option should be available as follows:  
 [![NewWebService (2)](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/NewWebService%2520(2)_thumb.png?raw=true?raw=true)](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/NewWebService%2520(2)_2.png?raw=true?raw=true)
 
@@ -74,8 +74,7 @@ After you've executed this command **while neither Netbeans nor Glassfish is run
 4. Select "Computer" and then "Local Computer" in the options for opening the local machine's certificate store.
 5. Import the certificates "localhost.pfx" and "sts.pfx" into the Machines "My" store by right-clicking "Personal" and selecting "All Tasks -> Import". The password for the PFX-files in my pre-requisites folder is **password**.  
 [![image](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/image_thumb.png?raw=true?raw=true)](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/image_2.png?raw=true?raw=true)
-6. After you've imported the certificates into the My-Store, your certificate store should look as follows:  
-[![Console1 - [Console RootCertificates (Local Computer)PersonalCertificates] (2)](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/Console1%2520-%2520%5BConsole%2520RootCertificates%2520(Local%2520Computer)PersonalCertificates%5D%2520(2)_thumb.png?raw=true?raw=true)](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/TNBlogsFS/BlogFileStorage/blogs_msdn/mszcool/WindowsLiveWriter/IdentityInteroperability.5Releaseworking_A315/Console1%2520-%2520%5BConsole%2520RootCertificates%2520(Local%2520Computer)PersonalCertificates%5D%2520(2)_2.png?raw=true?raw=true)
+6. After you've imported the certificates into the My-Store, your certificate store should show the certificate in the Personal folder.
 7. Import both certificates into the "Trusted People"-store as well so that the certificate validation can succeed!
 8. Now start Visual Studio 2008 as administrator (so that WCF can register all listeners while debugging) and open the solution <working-directory>\Simple STS For Active Clients\SimpleSTSForActiveClients-VS2008.sln
 9. For verifying if the Microsoft-side is working, start the projects SimpleActiveSTS-VS2008, ClaimsAwareWebService-VS2008 and NET.TestClient for debugging (or without debugging).
