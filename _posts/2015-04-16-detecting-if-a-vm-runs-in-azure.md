@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Detecting if a Virtual Machine runs in Microsoft Azure (Linux and Windows)
-date:   2014-11-20 12:00:00 +0100
+date:   2015-04-16 12:00:00 +0100
 categories: wordpressarchive
-tags: Archive Azure VirtualMachines
+tags: Archive Azure VirtualMachines Marketplace
 excerpt_separator: <!--more-->
 ---
 
