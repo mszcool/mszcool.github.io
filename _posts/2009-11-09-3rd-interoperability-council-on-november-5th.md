@@ -25,7 +25,7 @@ Last week, on November 5th 2009, we had our 3rd Interoperability Council in the 
  **e-Government Portal-Connection-Protocol**
 
  [Published Open Source Components](http://egora.codeplex.com/)   
-[Whitepaper on supporting this Austrian eGovernment standard](http://egora.codeplex.com/Project/Download/FileDownload.aspx?DownloadId=91043)
+[Whitepaper on supporting this Austrian eGovernment standard](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-11-egorawithdotnet.pdf)
 
  **Identity Interoperability**
 

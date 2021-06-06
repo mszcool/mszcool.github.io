@@ -8,11 +8,11 @@ tags: Archive MSDNBlog
 
 Today in the morning I gave a presentation at Microsoft’s largest internal conference for employees in Seattle, WA (called TechReady, about 5000-6000 Micorsoft employees are there on technical education).
 
- The presentation I gave is essentially based on the whitepaper I’ve written and we’ve published a few weeks ago together with Frequenits AG on always responsive and scalable apps and services. You can find **[more details as well as the paper for download here](http://blogs.msdn.com/mszcool/archive/2009/04/15/whitepaper-always-responsive-clients-and-services-with-wpf-and-wcf-frequentis-ag-tracking-tracing-logbook-for-maritime-communications.aspx)**.
+ The presentation I gave is essentially based on the whitepaper I’ve written and we’ve published a few weeks ago together with Frequenits AG on always responsive and scalable apps and services. You can find **[more details as well as the paper for download here](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-04-alwaysresponsiveapps.pdf)**.
 
  While the presentation is strictly confidential, I can publish the demo scenarios. Therefore click the link below if you are interested in a complete scenario that shows asynchronous processing within clients and services as well as across services… of course I do not cover all possible “exceptions”, but it’s a starting point.
 
- [**Click here to download the demo**](http://www.mszcool.at/blog/2009/20090730-AsyncTaskScenario-VS2010b1.zip)   
+ [**Click here to download the demo**](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-11-AsyncTaskScenario.zip)   
 (for Visual Studio 2010 Beta 1, only, I will provide a VS 2008 version with CCR-only implementations soon)
 
  The demo scenario supports a few arguments discussed in my whitepaper as well as the presentation:

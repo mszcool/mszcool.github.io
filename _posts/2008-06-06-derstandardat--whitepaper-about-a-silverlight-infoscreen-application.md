@@ -10,7 +10,7 @@ I am especially proud to announce this next technical paper: during the past mon
 
  Special thanks goes to our developer evangelist, Max Knor, for this project - he helped making the first prototype a success with is great, in-depth Silverlight know-how.
 
- Max and I have written a technical white-paper together for developers and architects where we describe the basic architectural approaches as well as some Silverlight-implementation approaches that we've been working on together with the team from [derStandard.at](http://www.derstandard.at).
+ Max and I have written a technical white-paper together for developers and architects where we describe the basic architectural approaches as well as some Silverlight-implementation approaches that we've been working on together with the team from [derStandard.at](http://www.derstandard.at). Download [here](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-05-infoscreenwithsilverlight.pdf).
 
  [Check out Max' blog-entry which also contains the download of the paper by clicking here.](http://blogs.msdn.com/knom/archive/2008/06/06/whitepaper-infoscreen-app-with-silverlight-1-0.aspx)
 

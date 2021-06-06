@@ -12,11 +12,11 @@ Right before my session is going to start here in Berlin at 5.30 p.m. I found ti
 
  I’ve published the PoC which is the demo-solution I use for the session earlier, but for TechEd I **updated the PoC** the whole solution **to Visual Studio 2010 Beta 2**.
 
- [Click here to download the Proof-of-Concept demo app (VS2010 b2).](http://www.mszcool.at/blog/2009/20091111_AsyncTaskScenario_VS2010b2.zip)
+ [Click here to download the Proof-of-Concept demo app (VS2010 b2).](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-11-AsyncTaskScenario-b2.zip)
 
  [Click here to download a PDF of my presentation.](http://www.mszcool.at/blog/2009/20091111_ARC305_TechEd_Europe.pdf)
 
- [Click here to get to the whitepaper we’ve published with Frequentis.](http://blogs.msdn.com/mszcool/archive/2009/04/15/whitepaper-always-responsive-clients-and-services-with-wpf-and-wcf-frequentis-ag-tracking-tracing-logbook-for-maritime-communications.aspx)
+ [Click here to get to the whitepaper we’ve published with Frequentis.](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-04-alwaysresponsiveapps.pdf)
 
  **Important Notes for testing**
 

@@ -14,7 +14,7 @@ Together with the architects from Frequentis, **Ulrich Hüttinger** and **Stefan
 
 
 
-| [Download the paper by clicking here…](http://www.mszcool.at/blog/2009/20090415_Frequentis_TnT_WPF_WCF_Responsive.pdf)
+| [Download the paper by clicking here…](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-04-alwaysresponsiveapps.pdf)
 
  |
 

@@ -8,13 +8,13 @@ tags: Archive MSDNBlog
 
 Maybe some of you have read the Whitepaper I’ve written together with two architects from Frequentis AG (Ulrich Hüttinger and Stefan Domnanovits) a few months ago. At the [DevCamp 2009 Conference](http://www.devcamp.at/) I baked that into a session now!
 
- [Download the paper by clicking here if you haven’t read it, yet.](http://blogs.msdn.com/mszcool/archive/2009/04/15/whitepaper-always-responsive-clients-and-services-with-wpf-and-wcf-frequentis-ag-tracking-tracing-logbook-for-maritime-communications.aspx)
+ [Download the paper by clicking here if you haven’t read it, yet.](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-04-alwaysresponsiveapps.pdf)
 
  Finally after giving a presentation at TechReay, Microsoft’s internal conference for technical and strategic education, I managed to give a “fine-tuned” version of the session for the first time in Europe – at our local [Developer Camp 2009 conference](http://www.devcamp.at/) organized by key-partners of Microsoft in Austria.
 
  If you’re interested in seeing the concepts of the paper in action using **.NET 4.0 Task Parallel Library**, then check out the presentation material and the **running demo solution**.
 
- [Download the Demo and Presentation here!!](http://www.mszcool.at/blog/2009/20091013_DevCamp2009_AlwaysResponsiveApps.zip)
+ [Download the Demo and Presentation here!!](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-11-AsyncTaskScenario.zip)
 
  The demo solution isn’t an easy thing, it’s really a little prototype to show the job/queue/command pattern using Task parallel library in an end-2-end-fashion:
 
