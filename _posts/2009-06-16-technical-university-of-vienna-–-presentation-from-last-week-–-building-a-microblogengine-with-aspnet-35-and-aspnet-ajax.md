@@ -20,7 +20,7 @@ While being here in Redmond with customers at our Lead Enterprise Architect Conf
 
  That’s essentially it, after you’ve these running you need to execute the included database script (Database.sql creates the tables, only, Database\_withData.sql creates the tables with some sample data), modify the connection strings in the web.config file to point to your SQL Server instance and database. If you have SQL Server Express Edition installed you can leave all settings in your web.config as they are because SQL Server Express Edition by default installs with the “(local)\SQLEXPRESS” instance name.
 
- [Click here to download the source code and presentation!](http://www.mszcool.at/blog/2009/20090617_MicroBlog_Sample.zip)
+ [Click here to download the source code and presentation!](https://github.com/mszcool/oldmsdnblogarchive/blob/master/media/2009-07-MicroBlogDemo.zip)
 
  Have much fun, if you have any questions feel free getting in touch with me through this blog!
 
